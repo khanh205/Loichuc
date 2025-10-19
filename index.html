@@ -6,7 +6,7 @@
   <title>Gửi lời chúc cho chị Hà Anh</title>
   <style>
     body{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f7fafc; color:#111; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; margin:0; overflow:hidden}
-    .card{background:white; padding:24px; border-radius:12px; box-shadow:0 6px 20px rgba(10,10,10,0.08); width:360px; max-width:92%; text-align:center; position:relative; z-index:2; margin-top:250px}
+    .card{background:white; padding:24px; border-radius:12px; box-shadow:0 6px 20px rgba(10,10,10,0.08); width:360px; max-width:92%; text-align:center; position:relative; z-index:2; margin-top:260px}
     h1{font-size:18px; margin:0 0 8px}
     p{margin:0 0 16px; color:#475569}
     form{display:flex; gap:8px}
@@ -16,12 +16,13 @@
     .heart{color:#e11d48; font-size:20px; margin-left:6px;}
     .shin{
       position:absolute;
-      top:10px;
+      top:0;
       left:50%;
       transform:translateX(-50%);
-      width:260px;
+      width:300px;
       z-index:3;
       animation: dance 2s infinite ease-in-out;
+      border-radius:12px;
     }
 
     @keyframes dance {
@@ -34,8 +35,8 @@
 </head>
 <body>
 
-  <!-- Ảnh động Shin Bút Chì hiển thị rõ ràng ở trên khung lời chúc -->
-  <img class="shin" src="https://i.pinimg.com/originals/6d/65/21/6d6521e86a6cf49710cf3b0b0e0b6f0e.gif" alt="Shin ngoáy mông" />
+  <!-- Ảnh Shin Bút Chì (JPG) hiển thị trên khung lời chúc -->
+  <img class="shin" src="maxresdefault.jpg" alt="Shin Bút Chì" />
 
   <div class="card" role="main">
     <h1>💌 Gửi lời chúc đến chị Hà Anh</h1>
